@@ -3,37 +3,37 @@ public class Main {
 
 
          Dikdortgen dikdortgen = new Dikdortgen(3,4);
-        System.out.println(dikdortgen.alan());
-        System.out.println(dikdortgen.hacim());
+        System.out.println("Dikdörtgen alanı : " + dikdortgen.alan());
+        System.out.println("Dikdörtgen hacim : " + dikdortgen.hacim());
 
         Daire daire  = new Daire(3);
-        System.out.println(daire.alan());
-        System.out.println(daire.hacim());
+        System.out.println("Diare alanı : " + daire.alan());
+        System.out.println("Daire hacim : " + daire.hacim());
 
         Kare kare = new Kare(4);
-        System.out.println(kare.alan());
-        System.out.println(kare.hacim());
+        System.out.println("Kare alanı " + kare.alan());
+        System.out.println("Kare hacim : " +kare.hacim());
 
         Ucgen ucgen = new Ucgen(4,5);
-        System.out.println(ucgen.alan());
-        System.out.println(ucgen.hacim());
+        System.out.println("Üçgen alan " + ucgen.alan());
+        System.out.println(" Üçgen hacim " + ucgen.hacim());
 
 
         DikdortgenPrizma dikdortgenPrizma = new DikdortgenPrizma(3,4,5);
-        System.out.println(dikdortgenPrizma.alan());
-        System.out.println(dikdortgenPrizma.hacim());
+        System.out.println("DikdörtgenPrizma alan " + dikdortgenPrizma.alan());
+        System.out.println("DiktörtgenPrizma hacim " +dikdortgenPrizma.hacim());
 
         Kup kup = new Kup(5);
-        System.out.println(kup.alan());
-        System.out.println(kup.hacim());
+        System.out.println("Küp alan " + kup.alan());
+        System.out.println("Küp hacim + " +kup.hacim());
 
         Kure kure = new Kure(6);
-        System.out.println(kure.alan());
-        System.out.println(kure.hacim());
+        System.out.println(" Küre alan " +kure.alan());
+        System.out.println("Küre hacim " + kure.hacim());
 
         UcgenPrizma ucgenPrizma = new UcgenPrizma(1,2,3,6);
-        System.out.println(ucgenPrizma.alan());
-        System.out.println(ucgenPrizma.hacim());
+        System.out.println("UcgenPrizma alan " + ucgenPrizma.alan());
+        System.out.println( "UgcenPrizma hacim " +ucgenPrizma.hacim());
 
 
         Shape3D kupp = new Kup(10);
